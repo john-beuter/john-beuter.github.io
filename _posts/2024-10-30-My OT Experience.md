@@ -17,7 +17,7 @@ image:
 
 ## Project Overview
 
-As a part of my summer internship at the Advanced Course in Engineering, I had the oppurtunity to conduct research for the Ministry of Defence (MOD) in the U.K. The main focus of my research of was Operational Technology (OT) security. The goal of my research team of six engineers was to provide an educative Operational Technology exercise for newcomers to OT attending Defence Cyber Marvel (DCM).
+As a part of my summer internship at the Advanced Course in Engineering, I had the oppurtunity to conduct research for the Ministry of Defence (MOD) in the U.K. The main focus of my research of was Operational Technology (OT) security. The goal of my research team of six engineers was to provide an educative Operational Technology exercise for newcomers to OT attending Defence Cyber Marvel (DCM). Given the nature of the excercise, I cannot provide full documentation. 
 
 ### Our project requirements from MOD Were As Follows: 
 

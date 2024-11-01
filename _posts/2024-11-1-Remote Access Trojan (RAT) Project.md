@@ -17,7 +17,7 @@ image:
 ## Project Overview
 
 As a part of the digital forensic class offered at Iowa State, students are given the chance to create their own projects related to digital forensic investigations. For my project I developed and implemented a Remote Access Trojan (RAT) which I wrote in C. I designed an entire scenario around the deployment of the RAT and created an investigation that mirrored how an digital forensic analyst would potentially uncover the malware. My project was heavily inspired by Madiant's report - "APT1
-Exposing One of China’s Cyber Espionage Units" and I even had the oppurtunity to share my project with some Mandiant employees and receive feedback for how to improve my project. 
+Exposing One of China’s Cyber Espionage Units" and I even had the oppurtunity to share my project with some Mandiant employees and receive feedback for how to improve my project. For more information technical information on the project, please refer to my github!
 
 ### Resources Used
 
