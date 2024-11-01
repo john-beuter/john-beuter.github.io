@@ -9,7 +9,7 @@ pin: true
 math: true
 mermaid: true
 image:
-  path: assets/img/Valencia.JPG
+  path: assets/img/Valencia.jpg
   alt: Valencia Science Park
 ---
 
