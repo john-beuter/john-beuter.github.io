@@ -1,10 +1,10 @@
 ---
-title: Defense Cyber Marvel Operational Training Environment
-description: My experiences learning Operational Technology and developing and cyber training exercise to share my learning
+title: Remote Access Trojan Project
+description: Designing and implementing a Remote Access Trojan (RAT) within a controlled environment
 author: John
-date: 2024-10-30 11:33:00 +0800
+date: 2024-11-1 11:33:00 +0800
 categories: [Projects, Security]
-tags: [Operational Technology]
+tags: [Forensics]
 pin: true
 math: true
 mermaid: true

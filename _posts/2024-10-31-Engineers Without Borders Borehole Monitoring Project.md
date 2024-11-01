@@ -32,7 +32,10 @@ As a technical team lead I worked to the most technically competent member of th
 
 ### Technical
 
-With the development and research done on the Borehole Monitoring Device, I had the chance to apply my engineering skills in the development of wireless data transmission for the device. I learned how to implement MQTT protocol and transmit data with that protocol then publish information to a website. Working with MQTT allowed me to understand networking in a more in depth manner and challenged me to think about the security implications of my design choices. Through this project and documentation of my work I challenged myself as an engineer to not only design a solution that functioned but was also secure by design. 
+With the development and research done on the Borehole Monitoring Device, I had the chance to apply my engineering skills in the development of wireless data transmission for the device. I learned how to implement MQTT protocol and transmit data with that protocol then publish information to a website. Working with MQTT allowed me to understand networking in a more in depth manner and challenged me to think about the security implications of my design choices. Through this project and documentation of my work I challenged myself as an engineer to not only design a solution that functioned but was also secure by design.
+
+#### Resources Used
+
 
 ### Lasting Impact
 
