@@ -26,6 +26,11 @@ I had the oppurtunity to work as team lead for this project. Being able to contr
 
 ### Technical
 
+For my work on the project I had the oppurtunity to research net deployment in lower earth orbit. As the project continues to develop I expect to apply my knowledge in the development of CAD designs and prototpyes.
+
+#### Resources
+
+In the project, my group has had the pleasure of working with NASA employees and private sector advisors. These adivisors have provided my group access to invaluable resources to help us develop our designs. 
 
 ### Takeaways
 
