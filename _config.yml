@@ -148,7 +148,8 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "/john-beuter.github.io"
+#baseurl: "/john-beuter.github.io"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
