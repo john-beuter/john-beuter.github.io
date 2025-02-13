@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://john-beuter.github.io"
 
 github:
-  username: john-beuter.github.io # change to your GitHub username
+  username: john-beuter # change to your GitHub username
 
 
 social:
