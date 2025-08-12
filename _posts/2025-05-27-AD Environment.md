@@ -1,5 +1,5 @@
 ---
-title: Building an Active Directory Testbed Environment: Overview
+title: Building an Active Directory Testbed Environment
 description: Small introduction to my learning experiences with Windows Active Directory
 author: John
 date: 2025-05-27 11:33:00 +0800
