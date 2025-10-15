@@ -8,11 +8,6 @@ tags: [Experience, Internship, Leadership]
 
 ---
 
-
-<object data="Leadership.pdf" width="700" height="750" type='application/pdf'></object>
-
-
-
 ### Prompt
 Write a one paragraph reflection briefly stating the most important leadership lesson you will take away from ACE and why it is important to you in the future positions you see yourself taking. Please cite no more than three specific experiences most impactful to your leadership development over the last 10 weeks (leadership case study lessons, speakers, staff feedback, GA comments, or ACE teams). 
 
