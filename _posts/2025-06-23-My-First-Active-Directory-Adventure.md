@@ -2,7 +2,7 @@
 title: Attacking ADCS and Exploiting ESC 8 
 description: An overview of how I acheive Domain Admin in my first active directory internal pentest
 author: John
-date: 2025-06-24 11:33:00 -0500
+date: 2025-06-24 18:30:00 -0500
 categories: [Internship]
 tags: [Active Directory]
 pin: true
@@ -49,7 +49,7 @@ After these initial, quick exploit attempts, I was at an impasse. I didn't know 
 After gaining initial access to the domain, I wanted to see what permissions and privileges were allotted to my compromised user. My main method of enumeration was using the Bloodhound-Python tool, which uses LDAP queries to collect information about a domain. The results from Bloodhound-Python are then passed to Bloodhound to map relationships between users and groups in the domain. Looking at the output was very overwhelming. I used built-in queries within Bloodhound to map potential vectors for privilege escalation. It was at this point in the engagement that I discovered, or rather re-discovered, the art of kerberoasting.
 
 
-##### The Kerberos Amusement Park
+#### The Kerberos Amusement Park
 
 
 I recall attending a talk where the speaker described the inner workings of Kerberos as an amusement park. At this amusement park, once guests pay their admission fee, they receive a receipt. Before a park-goer can ride a rollercoaster, they have to return to the ticket stand, show their receipt, and purchase a ticket to ride. Mapping this example back to Kerberos, to use different services in an AD environment, a user needs a service ticket (ST). An ST is like the tickets for the rollercoaster. If a user wants to be granted an ST, they need to provide some form of proof that they are a valid user with access to the service (they need to present their receipt). Validation comes in the form of a ticket called a ticket-granting ticket. Users receive a TGT after authenticating the key distribution center (KDC) on the network. Think of the KDC like the ticket booth at the park. Once a user has a TGT, they can request service tickets for various network resources. Each time a user wants to access a resource, they must first present the KDC with their TGT and the service principal name (SPN) of the service they want to access. An SPN is an identifier for a specific service account. If the TGT and service name are valid, the user is granted an ST. The ST itself is encrypted with the NT hash of the SPN, meaning that an attacker can view the hash, once the ticket has been acquired, and attempt to crack it.
@@ -58,7 +58,7 @@ I recall attending a talk where the speaker described the inner workings of Kerb
 While enumerating the domain using Bloodhound's built-in queries, I discovered two SPNs with Tier 0 (high-privilege) access that could be kerberoasted. I used Impackets GetUserSPN.py script to acquire the hashes of each SPN. After hours of waiting for the hashes to crack, hashcat ultimately gave me nothing. No good. Back to the drawing board. 
 
 
-##### Certificates for All!
+#### Certificates for All!
 
 
 At this point in the engagement, I stepped back and asked for help. This was my first AD pentest, and I was bound to have missed some attack paths. You don't know what you don't know. It was at this point that one of my co-workers graciously gave me an impromptu lecture on the basics of Active Directory Certificate Services (ADCS). ADCS is a way to implement public key infrastructure and manage digital certificates in Active Directory. Compromising ADCS grants attackers access to password-equivalent credentials and certificates that they can abuse on the network. My coworker talked me through how, during one of their recent engagements, they used certipy-ad to exploit numerous escalation-of-privilege abuse cases (ESC) to achieve domain admin. At this point, it was game on! I had a new direction to head and a new tool to explore.
@@ -101,8 +101,8 @@ Check the machine account quota as soon as you get access to the domain.
 #### Attacks I Want to Test in the Future
 
 
-LazarusWakeUp by Nikos Vourdas src: https://github.com/nickvourd/LazarusWakeUp
-RBCD
-Shadow Credentials
-PrintNightmare
+  - LazarusWakeUp by Nikos Vourdas src: https://github.com/nickvourd/LazarusWakeUp
+  - RBCD
+  - Shadow Credentials
+  - PrintNightmare
 
