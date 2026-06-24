@@ -29,7 +29,6 @@ As a part of my summer internship at the Advanced Course in Engineering, I had t
 
 For my role on the team I was tasked with researching and developing exploits for our training environment. I created Modbus exploits written in Python, Go, and Nim that were designed to deny legitimate traffic from our human machine interface to our simulated programmable logic controllers. Beyond the technical implementation of these exploits, I created written reports outlining how these attacks worked, and how OT professionals could counter these threats. Beyone communicating the work that I did, I also collected information about real world attacks and condensed the information to a beginner knowledge level.
 
-### Resources Used
 
 ### Takeaways
 

@@ -28,8 +28,6 @@ image:
 3. Understand potential indicators of compromise in an AD environment as it is being exploited[Purple team]
 
 
-### Progress as of September 2025
 
-Test test lorem ipsum
 
 
