@@ -67,7 +67,7 @@ At this point in the engagement, I stepped back and asked for help. This was my 
 Using certipy, I scanned the network to identify the network's certificate authority. From the results of my certipy enumeration, I discovered that the ADCS implementation on the network was flagged as vulnerable to ESC8. To exploit ESC8, an attacker needs access to a network where ADCS has its web interface enabled and accepts NTLM-based authentication. With this attack path, an attacker coerces authentication from a domain controller (DC) and relays it to the ADCS web endpoint to request a certificate on the DC's behalf. Once the authentication is accepted, the attacker is granted a certificate that essentially identifies them as a DC. The attacker can then present that certificate to the KDC to retrieve a TGT for a domain controller account. With the  TGT, they can dump hashes from the DC.
 
 
-To set up this attack, I used two terminals. One terminal was running Petite Potam, which required authentication from the DC, and another terminal was running certipy-ad with the relay option enabled. After running both terminals in tandem, I successfully relayed NTLM authentication to the ADCS endpoint and retrieved a DC TGT. With this ticket
+To set up this attack, I used two terminals. One terminal was running Petite Potam, which required authentication from the DC, and another terminal was running certipy-ad with the relay option enabled. After running both terminals in tandem, I successfully relayed NTLM authentication to the ADCS endpoint and retrieved a DC TGT. With this ticket I then used Impacket's secrets dump to dump NT/NTLM hashes and other secrets for the domain. 
 
 
 ### Lessons Learned and Conclusions
