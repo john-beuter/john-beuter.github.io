@@ -10,7 +10,7 @@ mermaid: true
 image:
  path: assets/img/Minotar.jpg
 ---
-### Intro
+
 
 
 During my time at Iowa State, I had the privilege of working as a Teaching Assistant (TA) for numerous courses in the Cyber Security Engineering program. Of the courses that I had the opportunity to TA for, my favorite course was CYBE 2310: Cyber Security Concepts and Tools. In this course, students learn the basics of penetration testing through numerous lab exercises. For my creative component, the final project to complete my Master's program, I elected to create a new lab for the course that focused on lateral movement. Throughout my cyber career up until this point, I had limited professional experience using lateral movement, but I knew how powerful the skill could be when working through a complex maze of a computer network. With this blog post, I am going to talk through the learning goals with this lab and dive into how I found my own way through the labyrinth of teaching lateral movement.
