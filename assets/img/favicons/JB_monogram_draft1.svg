@@ -1,0 +1,24 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="#111111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- main diagonal stroke sweeping from top-left, through the hub, to bottom-right -->
+    <path d="M255,30 C 315,63 362,88 400,108 C 462,141 558,190 635,240" />
+
+    <!-- top edge of left triangle, from far left point to the hub -->
+    <path d="M140,145 C 222,140 305,138 400,108" />
+
+    <!-- long swash: hub down through crossing point, curling into the J hook at bottom left -->
+    <path d="M400,108 C 358,152 322,192 300,230 C 258,272 216,302 168,332 C 128,357 88,378 68,386 C 48,394 43,374 47,349 C 51,323 62,298 79,282" />
+
+    <!-- hypotenuse: crossing point back up to left triangle's far point -->
+    <path d="M300,230 C 240,196 182,166 140,145" />
+
+    <!-- right triangle, top edge from crossing point outward -->
+    <path d="M300,230 C 372,222 442,217 500,215" />
+
+    <!-- right triangle, right edge down -->
+    <path d="M500,215 C 508,260 515,302 520,345" />
+
+    <!-- right triangle, closing edge back to crossing point -->
+    <path d="M520,345 C 440,308 366,268 300,230" />
+  </g>
+</svg>
