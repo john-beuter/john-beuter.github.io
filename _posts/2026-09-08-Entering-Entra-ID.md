@@ -2,8 +2,8 @@
 title: Overview of Entra ID Components and Attack Concepts 
 author: John
 date: 2026-09-14 11:33:00 -0500
-categories: [Security]
-tags: [Entra]
+categories: [Blogs]
+tags: [Entra, Active Directory]
 pin: true
 math: true
 mermaid: true

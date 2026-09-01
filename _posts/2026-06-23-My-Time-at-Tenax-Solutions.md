@@ -4,7 +4,7 @@ description: An overview of my first real pentesting job and the experience that
 author: John 
 date: 2026-07-08 11:33:00 -0500
 categories: [Security]
-tags: [Internship]
+tags: [Internship, Pentesting]
 pin: true
 math: true
 mermaid: true
