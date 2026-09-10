@@ -1,5 +1,5 @@
 ---
-title: Overview of Entra ID 
+title: A Guide to Something Completly Different From Azure AD, Entra ID
 author: John
 date: 2026-09-09 06:33:00 -0500
 categories: [Blogs]
@@ -11,11 +11,6 @@ image:
  path: assets/img/entra.png
 ---
 
-
--- I need to talk about what a tenant is --
-Make a diagram to show the token exchange process
-Add sources
-Where does ADFS exist in this process??? 
 
 ## A Preface From the Author
 
