@@ -1,7 +1,7 @@
 ---
 title: Overview of Entra ID Components and Attack Concepts 
 author: John
-date: 2026-09-14 11:33:00 -0500
+date: 2026-09-9 11:33:00 -0500
 categories: [Blogs]
 tags: [Entra, Active Directory]
 pin: true
@@ -12,8 +12,6 @@ image:
 ---
 
 
--- I need to talk about what a tenant is --
-Make sure consistent wording between entra and entra ID 
 
 ## A Preface From the Author
 
