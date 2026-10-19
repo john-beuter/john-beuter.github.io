@@ -3,7 +3,7 @@ title: Engineers Without Borders Borehole Monitoring Device
 description: My engineering and leadership experience through Engineers Without Borders
 author: John
 date: 2024-10-31 09:50:00 +0800
-categories: [Projects, Other]
+categories: [Blogs, Other Engineering]
 tags: [Reflection, Projects, EWB]
 pin: true
 math: true

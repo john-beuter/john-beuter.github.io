@@ -3,7 +3,7 @@ title: Remote Access Trojan Project
 description: Designing and implementing a Remote Access Trojan (RAT) within a controlled environment
 author: John
 date: 2024-11-1 11:33:00 +0800
-categories: [Projects, Security]
+categories: [Blogs, Security]
 tags: [Forensics]
 pin: true
 math: true

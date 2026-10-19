@@ -3,7 +3,7 @@ title: What I Learned from My Time as a Pentester with Tenax Solutions
 description: An overview of my first real pentesting job and the experience that I gained from it
 author: John 
 date: 2026-07-08 11:33:00 -0500
-categories: [Security]
+categories: [Internship]
 tags: [Internship, Pentesting]
 pin: true
 math: true

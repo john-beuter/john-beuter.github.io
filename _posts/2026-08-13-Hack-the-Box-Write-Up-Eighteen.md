@@ -2,7 +2,7 @@
 title: Conquering dMSA's in HTB's "Eighteen" 
 author: John
 date: 2026-08-22 11:33:00 -0500
-categories: [Security]
+categories: [Blogs, Security]
 tags: [Pentesting]
 pin: true
 math: true

@@ -4,11 +4,11 @@ description: My final leadership reflection as a part of the ACE program
 author: John
 date: 2024-11-3 09:33:00 +0800
 categories: [Blogs, Leadership]
-tags: [Experience, Internship, Leadership]
+tags: [Internship, Leadership]
 
 ---
 
-### Prompt
+### Essay Task
 Write a one paragraph reflection briefly stating the most important leadership lesson you will take away from ACE and why it is important to you in the future positions you see yourself taking. Please cite no more than three specific experiences most impactful to your leadership development over the last 10 weeks (leadership case study lessons, speakers, staff feedback, GA comments, or ACE teams). 
 
 

@@ -3,7 +3,7 @@ title: Senior Design ISAM Challenge Project
 description: Overview of my senior design project developing an ISAM module
 author: John
 date: 2024-10-31 09:45:00 +0800
-categories: [Projects, Other]
+categories: [Blogs, Other Engineering]
 tags: [Reflection]
 pin: true
 math: true

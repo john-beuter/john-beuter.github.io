@@ -2,7 +2,7 @@
 title: Creating a Lateral Movement Lab Excercise for an Intro Cyber Security Course
 author: John
 date: 2026-07-30 11:33:00 -0500
-categories: [Security]
+categories: [Blogs, Security]
 tags: [School, Pentesting]
 pin: true
 math: true

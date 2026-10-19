@@ -3,7 +3,7 @@ title: Defense Cyber Marvel Operational Training Environment
 description: My experiences learning Operational Technology and developing and cyber training exercise to share my learning
 author: John
 date: 2024-10-30 11:33:00 +0800
-categories: [Projects, Security]
+categories: [Blogs, Security]
 tags: [Operational Technology]
 pin: true
 math: true
